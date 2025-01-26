@@ -8,3 +8,71 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+/* drak 02 */
+.text-gray{
+    color: #424242;
+}
+/* drak 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: #D9D9D9;
+}
+.btn-primary{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+}
+/* header style */
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight:  700;
+    font-size: 3rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner related style */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-image{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}

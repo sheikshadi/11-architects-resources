@@ -103,6 +103,19 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
+/* badge */
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -169,5 +182,8 @@ main > section{
     } */
     .our-features{
         margin-left: 20px auto;
+    }
+    #experience-badge{
+        margin-left: 0px;
     }
 }
